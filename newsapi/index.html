@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>News API</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <style>
+      img {
+        height: 200px;
+        width: 250px;
+      }
+      body {
+        background-color: #d2d2d2;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      /* .item{
+                border: 2px solid;
+                background-color:whitesmoke;
+                margin: 10px;
+                border-radius: 5px;
+                
+            }
+            p{
+                
+                margin-left: 210px;
+            } */
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-primary p-4">
+      <a class="navbar-brand font-weight-bolder">NewsAPI</a>
+      <form class="form-inline">
+        <input
+          class="form-control btn-lg input"
+          type="search"
+          placeholder="Search for news"
+          aria-label="Search"
+          required
+        />
+        <button class="btn btn-outline-success my-2 my-md-0" type="submit">
+          Search
+        </button>
+      </form>
+    </nav>
+    <div class="container news"></div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="news.js"></script>
+  </body>
+</html>
